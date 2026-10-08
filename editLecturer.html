@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="editLecturer.css" type="text/css"/>
+    <title>Edit Lecturer</title>
+  </head>
+  <body>
+    <img class="INTI_LOGO"src="https://i.postimg.cc/TY1g3zFz/2560px-Inti-IU-logo-new-removebg-preview.png"/>
+    <input type="button" name="addRow"onclick="addRowClass()" value="Add More Class">
+    <script>
+    function addRowClass(){
+      var newRow = document.createElement("input");
+      newRow.type="text";
+      newRow.name="class[]";
+      newRow.placeholder="Enter Class Name";
+      document.querySelector("form").appendChild(newRow);
+    }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="newLecturerReg.css" type="text/css"/>
+    <title>Register New Student</title>
+  </head>
+  <body>
+    <form action="newLecturerReg.php" method="post">
+      <img class="INTI_LOGO"src="https://i.postimg.cc/TY1g3zFz/2560px-Inti-IU-logo-new-removebg-preview.png"/>
+      <br><label>Name : </label>
+      <input type="text" name="name" placeholder="Enter Name" required>
+      <br><label>ID : </label>
+      <input type="text" name="ID" placeholder="Enter ID" required>
+      <br><label>Email : </label>
+      <input type="email" name="email" placeholder="Enter Email" required>
+      <br><label>Password : </label>
+      <input type="password" name="password" placeholder="Enter Password" required>
+      <br><label name="classLabel">Class : </label>
+      <input type="text" name="class[]" placeholder="Enter Class Name">
+      <input type="button" name="addRow"onclick="addRowClass()" value="Add More Class">
+      <br><input type=submit name="done" value="Done" required>
+    </form>
+    <script>
+    function addRowClass(){
+      var newRow = document.createElement("input");
+      newRow.type="text";
+      newRow.name="class[]";
+      newRow.placeholder="Enter Class Name";
+      document.querySelector("form").appendChild(newRow);
+    }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+body{
+  margin: 25px 250px 0px 250px;
+}
+.INTI_LOGO{
+  width:400px;
+  margin: 0px 0px 20px 10px;
+}
+.header{
+  background-color: #2C3D4F;
+  padding: 10px 0px 10px 0px;
+}
+a{
+  text-decoration: none;
+
+}
+.header{
+  background-color: #2C3D4F;
+  padding: 10px 0px 10px 0px;
+}
+a.header{
+  margin-left: 20px;
+}
+label.header, a.header{
+  color: #D5DDE7;
+}
+.newLecturerLink{
+  margin-left: 100px;
+}

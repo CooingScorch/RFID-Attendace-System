@@ -1,0 +1,57 @@
+body{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1000px 1000px;
+  background-color: #2C3D4F;
+}
+h1{
+  text-align: center;
+  color: #393939;
+}
+.INTI_IU{
+  border-radius: inherit;
+  width: 50%;
+}
+.INTI_LOGO{
+  padding: 20px;
+  width:400px;
+  height:15%;
+  margin: 0px 0px 40px -80px;
+}
+label{
+  display: inline-flex;
+  margin:20px 0px 20px 90px;
+  color: #5B656F;
+  font-size: 25px;
+  text-align: center;
+}
+.login{
+  display: flex;
+  background-color: #D6DCDC;
+  margin: 30px 70px 30px 70px;
+  border-radius: 10px;
+  height: 620px;
+}
+#credential{
+  width:280px;
+  height:25px;
+}
+form{
+  padding: 50px 0px 20px 30px;
+  margin: 0px 0px 0px 150px;
+}
+input{
+  border-radius: 3px;
+  border-color: #97A2B4;
+  border-width: 1px;
+}
+.login_btn{
+  color: #FEEDEE;
+  font-size: 13px;
+  border-radius: 5px;
+  width:200px;
+  height: 25px;
+  background-color: #ED1B24;
+  border-color: #ED1B24;
+  margin-left: 35px;
+}

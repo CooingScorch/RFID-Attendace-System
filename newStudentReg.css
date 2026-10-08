@@ -1,0 +1,23 @@
+body{
+  margin: 100px 0px 100px 500px;
+}
+.INTI_LOGO{
+  width:400px;
+  margin: 0px 0px 20px 10px;
+}
+a{
+  text-decoration: none;
+  border-style: solid;
+  border-color: black;
+  padding: 5px 5px 5px 5px;
+  border-width: thin;
+  color: black;
+  margin: 2px 0px 2px 0px;
+  display: inline-flex;
+  background: #ED1B24;
+  border-radius: 2px;
+}
+input{
+
+  width:250px;
+}

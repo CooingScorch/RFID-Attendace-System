@@ -1,0 +1,41 @@
+body{
+  margin: 25px 250px 0px 250px;
+}
+.INTI_LOGO{
+  width:400px;
+  margin: 0px 0px 20px 10px;
+}
+.header{
+  background-color: #2C3D4F;
+  padding: 10px 0px 10px 0px;
+}
+label.header, a.header{
+  color: #D5DDE7;
+}
+a.header{
+  margin-left:750px;
+}
+.adminName{
+  margin: 0px 0px 0px 70px;
+}
+.contentBack2{
+  text-align: center;
+  position: absolute;
+  background-color: #FFFFFF;
+  opacity:0.8;
+  bottom:100px;
+  padding: 30px 0px 30px 0px;
+  width:1100px;
+}
+a.contentBack2{
+  margin-right: 20px;
+}
+.contentBack1{
+  background-image: url("https://newinti.edu.my/wp-content/uploads/2018/01/Inti-Students.jpg");
+  background-repeat:no-repeat;
+  height: 500px;
+}
+a{
+  text-decoration: none;
+  padding: 0px 120px 0px 20px;
+}
